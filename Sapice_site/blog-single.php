@@ -33,7 +33,8 @@
         <div class="content-wrapper">
             <?php 
             echo "<h4>{$row->subtitle}</h4>";
-            echo "<p>{$row->blog_text}</p>"
+            //echo "<p>{$row->blog_text}</p>"
+            echo "<p>" . html_entity_decode($row->blog_text) . "</p>";
             ?>
         </div>
     </div>
@@ -52,7 +53,7 @@
                         echo "<img src='{$img_src}' alt='{$row_random_blogs->title}'>";
                     echo "</figure>";
                     echo "<h4><a href='blog-single.php?id={$id}'>{$row_random_blogs->title}</a></h4>";
-                    echo "<p>{$row_random_blogs->text_short}</p>";
+                    echo "<p>{$row_random_blogs->subtitle}</p>";
                 echo "</article>";
             }
             
