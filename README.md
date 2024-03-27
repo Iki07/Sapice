@@ -1,5 +1,5 @@
 # Sapice (= "Paws" in English)
-Animal rescue site with admin panel, preview available here: [https://sapice.etl.yt](url){:target="_blank"} 
+Animal rescue site with admin panel, preview available here: https://sapice.etl.yt
 
 ## Description
 Sapice is a comprehensive web solution designed to support local animal (mainly dogs) rescue centers. It facilitates the management of dog profiles, including details such as breed, age, characteristics, rescue information, and special needs. Additionally, Sapice features a blog where users can read and publish articles related to dogs. The platform is structured with three user roles: visitor, editor, and admin, each providing different levels of access and control over the content.
@@ -17,7 +17,7 @@ Note: Detailed instructions on setting up XAMPP and importing SQL files can be f
 - **Visitors** can access the site to view dog profiles and read blog posts.
 - **Editors** have the ability to create and edit blog posts and related images.
 - **Admins** can perform all tasks, including user management and content moderation.
-A demo admin account is available for previewing the admin panel functionalities with limited access rights and without the ability to make changes (https://sapice.etl.yt/Sapice_admin/login.php; user: pera@test.com; password: 12345).
+A demo admin account is available for previewing the admin panel functionalities with limited access rights and without the ability to make changes (https://sapice.etl.yt/Sapice_admin/login.php; user: sapice@demo.com; password: deM0S@pice!).
 
 ## Features
 - Management of dog profiles with comprehensive details.
